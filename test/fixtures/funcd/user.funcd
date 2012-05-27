@@ -1,0 +1,7 @@
+layout = require("./layout")
+console.log "layout", layout
+
+exports.main = (t, data) ->
+  t.extends layout
+  t.block "content", ->
+    t.p data.user.name

@@ -1,0 +1,2 @@
+exports.main = (t) ->
+  t.block "content"
